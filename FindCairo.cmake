@@ -1,7 +1,7 @@
 # Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
 # file Copyright.txt or https://cmake.org/licensing for details.
 # 
-# revision: 1
+# revision: 2
 # See https://github.com/CMakePorts/CMakeFindPackages for updates
 #
 #.rst:
@@ -80,7 +80,7 @@ if(NOT CAIRO_LIBRARY)
             "local/lib"
     ) 
 
-    FIND_LIBRARY(CAIRO_LIBRARY_RELEASE
+    FIND_LIBRARY(CAIRO_LIBRARY_DEBUG
         NAMES
             cairod
             cairo-staticd
